@@ -1,0 +1,13 @@
+{
+    "name": "emsquellen/lbte",
+    "description": "A php templating engine",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app/",
+            "Framework\\": "src/framework/",
+            "Templating\\": "src/templating/"
+        }
+    },
+    "require": {}
+}
